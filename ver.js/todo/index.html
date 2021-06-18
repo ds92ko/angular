@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List ver.js</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div id="add_list">
+                <input type="text" placeholder="what needs to be done">
+                <button id="push">ADD</button>
+            </div>
+            <div class="tab_menu">
+                <ul class="tab_list">
+                    <li class="tab active">
+                        <a href="#all" class="tab_btn">ALL</a>
+                        <ul id="all" class="tab_cont">all test</ul>
+                    </li>
+                    <li class="tab">
+                        <a href="#active" class="tab_btn">ACTIVE</a>
+                        <ul id="active" class="tab_cont">active test</ul>
+                    </li>
+                    <li class="tab">
+                        <a href="#completed" class="tab_btn">COMPLETED</a>
+                        <ul id="completed" class="tab_cont">completed test</ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="todo.js"></script>
+</body>
+
+</html>

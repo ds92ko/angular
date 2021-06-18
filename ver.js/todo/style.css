@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.wrap {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 40%;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.tab_list {
+    display: flex;
+}
+
+.tab {
+    flex: 1;
+}
+
+.tab_cont {
+    display: none;
+}
+
+.tab.active .tab_cont {
+    display: block;
+}
